@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:ads="http://schemas.android.com/apk/res-auto"
@@ -9,18 +8,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- 画像はお好みで
-    <ImageView
-        android:src="@drawable/img"
-        android:scaleType="centerCrop"
-        android:layout_width="wrap_content"
+    <com.example.myapplicationadds.roulette
+        android:id="@+id/Roulette"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:contentDescription="@string/description"/>
-     -->
-
-
-
-
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="241dp" />
 
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
@@ -33,17 +26,7 @@
         ads:layout_constraintBottom_toBottomOf="parent"
         ads:layout_constraintEnd_toEndOf="parent"
         ads:layout_constraintStart_toStartOf="parent">
-
     </com.google.android.gms.ads.AdView>
-
-    <com.example.com.example.myapplicationadds.roulette
-        android:id="@+id/Roulette"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="184dp"
-        tools:ignore="MissingClass" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
