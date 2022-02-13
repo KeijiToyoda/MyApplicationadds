@@ -1,8 +1,9 @@
-package com.example.myapplicationadds
+package com.example.com.example.myapplicationadds
 
 import android.content.Context
 import android.graphics.*
 import android.os.Bundle
+import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
@@ -10,7 +11,8 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import kotlin.concurrent.timer
 
-class roulette (context: Context?, var color: Int) : View(context) {
+class roulette(context: Context?,attrs:AttributeSet?,var color: Int): View(context) {
+
     private var paint: Paint = Paint()
     var deg:Float = 0F
     var n = 6
