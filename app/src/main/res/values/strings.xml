@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">My Application adds</string>
     <string name="description">Image</string>
+    <string name="hint">文字を入力してください</string>
 </resources>
